@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>$!page_title</title>
+<link rel="stylesheet" type="text/css"
+	href="/easyui/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="/easyui/themes/icon.css">
+<link rel="stylesheet" type="text/css" href="/easyui/themes/color.css">
+<script type="text/javascript" src="/easyui/jquery.min.js"></script>
+<script type="text/javascript" src="/easyui/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="/easyui/locale/easyui-lang-zh_CN.js"></script>
+
+<script type="text/javascript" src="/js/list.js"></script>
+
+</head>
+<body>
+	<div id="container" class="easyui-layout" data-options="fit:true">
+		<div data-options="region:'north'" style="height: 65px">
+			#parse("control/header.vm")
+		</div>
+		<div
+			data-options="region:'west',split:true,hideCollapsedContent:false,collapsed:false"
+			title="菜单栏" style="width: 250px;"></div>
+			
+		<div data-options="region:'center',title:'用户列表',iconCls:'icon-man'">$screen_content</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Spring MVC and Velocity</title>
+    </head>
+    <body>
+        <h3>Spring MVC and Velocity</h3>
+
+        $screen_content
+
+        <hr />
+        Copyright &copy; GISLab 2016, All rights reserved.
+    </body>
+</html>

@@ -1,0 +1,43 @@
+#set($page_title="Layout Test")
+
+<table id="dg">
+	<thead>
+		<tr>
+			<th field="id" width="150">用户编号</th>
+			<th field="name" width="150">用户名</th>
+			<th field="password" width="200">密码</th>
+		</tr>
+	</thead>
+</table>
+<style type="text/css">
+body {
+	margin: 0 auto;
+	padding: 0;
+}
+
+#fm {
+	margin: 0;
+	padding: 10px 30px;
+}
+
+.ftitle {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 0;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.fitem {
+	margin-bottom: 5px;
+}
+
+.fitem label {
+	display: inline-block;
+	width: 80px;
+}
+
+.fitem input {
+	width: 160px;
+}
+</style>

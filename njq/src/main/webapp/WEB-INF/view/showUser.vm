@@ -1,0 +1,5 @@
+#set($layout = "layout/simple.vm")  
+
+
+<p>Username: ${user.name}</p>
+<p>Password: ${user.password}</p>
